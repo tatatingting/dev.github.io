@@ -1,13 +1,22 @@
 # tatatingting.github.io
+
 tingting's blog https://tatatingting.github.io/
 
+its source: https://github.com/tatatingting/tatatingting.github.io
 
+
+
+> ./dev.github.io
+
+this source is used to output the _site for the blog
 
 
 
 ## intro
 
-it's source: https://github.com/tatatingting/tatatingting.github.io
+this source https://github.com/tatatingting/dev.github.io
+
+now the source is 
 
 there're three branches:
 
