@@ -2,19 +2,11 @@
 
 tingting's blog https://tatatingting.github.io/
 
-its source: https://github.com/tatatingting/tatatingting.github.io
-
-
-
-> ./dev.github.io
-
-this source is used to output the _site for the blog
-
 
 
 ## intro
 
-this source https://github.com/tatatingting/dev.github.io
+it's source https://github.com/tatatingting/tatatingting.github.io
 
 now the source is 
 
@@ -26,9 +18,17 @@ there're three branches:
 
 
 
+## .gitignore
+
+_site
+.sass-cache
+.jekyll-metadata
+
+
+
 ## play with Jekyll
 
-###sketch the game
+### sketch the game
 
 there're topics about Jekyll:
 
@@ -40,9 +40,9 @@ there're topics about Jekyll:
 
 
 
-###details
+### details
 
-####quick-start
+#### quick-start
 
 1. install Git
 
@@ -52,12 +52,14 @@ there're topics about Jekyll:
 
 4. Install Jekyll and other dependencies from the GitHub Pages gem ==> `bundle install`
 
-   tip: create file just named "Gemfile" 没有扩展名 and the content:
+   tip: create file just named "Gemfile" 没有扩展名 and the content
 
-    ```
-    source 'https://rubygems.org'
-    gem 'github-pages', group: :jekyll_plugins
-    ```
+   ```shell
+   source 'https://rubygems.org'
+   gem 'github-pages', group: jekyll_plugins
+   ```
+
+   
 
 5. run Jekyll locally ==> `bundle exec jekyll serve`
 
@@ -67,32 +69,34 @@ there're topics about Jekyll:
 
 
 
-####step-by-step local build
+#### step-by-step local build
 
 have a look at the structure:
 
-```
-.sass-cache
-├── _authors
-├── _data
-├── _includes
-├── _layouts
-├── _posts
-├── _sass
-├── _site
-├── assets
-|   ├── css
-|   ├── images
-|   └── js
-_config.yml
-about.md
-blog.html
-Gemfile
-Gemfile.lock
-index.html
-staff.html
-...
-```
+    ```shell
+    .sass-cache
+    ├── _authors
+    ├── _data
+    ├── _includes
+    ├── _layouts
+    ├── _posts
+    ├── _sass
+    ├── _site
+    ├── assets
+    |   ├── css
+    |   ├── images
+    |   └── js
+    _config.yml
+    about.md
+    blog.html
+    Gemfile
+    Gemfile.lock
+    index.html
+    staff.html
+    ...
+    ```
+
+
 
 Note that any time you update `_config.yml` you’ll need to restart Jekyll for the changes to take affect.
 
@@ -102,7 +106,7 @@ more see https://jekyllrb.com/docs/step-by-step/01-setup/
 
 - This restricts your Ruby environment to only use gems set in your `Gemfile`.
 
-  ```
+  ```shell
   bundle exec jekyll serve
   ```
 
@@ -120,7 +124,7 @@ more see https://jekyllrb.com/docs/step-by-step/01-setup/
 
 
 
-**very beginning of local Jekyll**
+### very beginning of local Jekyll
 
 - https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll
 
@@ -174,8 +178,8 @@ more see https://jekyllrb.com/docs/step-by-step/01-setup/
     
     - if successfully, you'll see or maybe not see, it doesn't matter:
 
-        ```
-    Post-install message from html-pipeline:
+        ```shell
+    	Post-install message from html-pipeline:
         -------------------------------------------------
         Thank you for installing html-pipeline!
         You must bundle Filter gem dependencies.
@@ -230,7 +234,7 @@ more see https://jekyllrb.com/docs/step-by-step/01-setup/
 
 
 
-**key points about Jekyll theme**
+### key points about Jekyll theme
 
 - https://help.github.com/en/articles/customizing-css-and-html-in-your-jekyll-theme
 - 
@@ -239,4 +243,7 @@ more see https://jekyllrb.com/docs/step-by-step/01-setup/
 
 
 
+## LICENSE
+
+-  [LICENSE](LICENSE) 
 
