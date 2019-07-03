@@ -2,6 +2,10 @@ _site
 .sass-cache
 .jekyll-metadata
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
