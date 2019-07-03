@@ -21,8 +21,33 @@ there're three branches:
 
 there're topics about Jekyll:
 
-- very beginning of **local Jekyll**
+- quick-start (v1.0)
+- very beginning of **local Jekyll** (v1.0)
 - key points about Jekyll **theme**
+
+
+
+
+
+**quick-start**
+
+1. install Git
+
+2. install Ruby + devkit ==>  `ruby --version`
+
+3. install Bundler ==> `gem install bundler`
+
+4. Install Jekyll and other dependencies from the GitHub Pages gem ==> `bundle install`
+
+   tip: create file just named "Gemfile" 没有扩展名 and the content:
+
+    ```
+    source 'https://rubygems.org'
+    gem 'github-pages', group: :jekyll_plugins
+    ```
+
+5. run Jekyll locally ==> `bundle exec jekyll serve`
+6. browse to  http://localhost:4000/
 
 
 
@@ -46,7 +71,7 @@ there're topics about Jekyll:
     gem install bundler
     ```
 
-4. (recommended) change the filepath for clear info:
+4. (optional) change the filepath for clear info:
 
     ```
     cd dev
@@ -54,13 +79,13 @@ there're topics about Jekyll:
     
     
     
-5. Install Jekyll and other [dependencies](https://pages.github.com/versions/) from the GitHub Pages gem:
+5. Install Jekyll and other [dependencies](https://pages.github.com/versions/) from the GitHub Pages gem, run the line:
 
     ```
     bundle install
     ```
     
-    if there's no local gemfile, just create one.
+    if "Could not locate Gemfile", just create one.
 
     - create a file named 'Gemfile' and content as follows:
 
@@ -69,7 +94,7 @@ there're topics about Jekyll:
         gem 'github-pages', group: :jekyll_plugins
         ```
 
-    then run `bundle install` again.
+    then run the line again.
 
     then wait ...:alarm_clock: ...
 
