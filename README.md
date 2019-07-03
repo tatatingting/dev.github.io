@@ -17,19 +17,23 @@ there're three branches:
 
 
 
-## work with Jekyll
+## play with Jekyll
+
+###sketch the game
 
 there're topics about Jekyll:
 
-- quick-start (v1.0)
-- very beginning of **local Jekyll** (v1.0)
-- key points about Jekyll **theme**
+- step-by-step local build (v2.0)
+
+- quick-start (v1.1)
+- very beginning of local Jekyll (v1.0)
+- key points about Jekyll theme
 
 
 
+###details
 
-
-**quick-start**
+####quick-start
 
 1. install Git
 
@@ -47,9 +51,63 @@ there're topics about Jekyll:
     ```
 
 5. run Jekyll locally ==> `bundle exec jekyll serve`
+
 6. browse to  http://localhost:4000/
 
+7. try ==> `bundle exec jekyll new myblog`
 
+
+
+####step-by-step local build
+
+have a look at the structure:
+
+```
+.sass-cache
+├── _authors
+├── _data
+├── _includes
+├── _layouts
+├── _posts
+├── _sass
+├── _site
+├── assets
+|   ├── css
+|   ├── images
+|   └── js
+_config.yml
+about.md
+blog.html
+Gemfile
+Gemfile.lock
+index.html
+staff.html
+...
+```
+
+Note that any time you update `_config.yml` you’ll need to restart Jekyll for the changes to take affect.
+
+more see https://jekyllrb.com/docs/step-by-step/01-setup/
+
+- ready for production https://jekyllrb.com/docs/step-by-step/10-deployment/
+
+- This restricts your Ruby environment to only use gems set in your `Gemfile`.
+
+  ```
+  bundle exec jekyll serve
+  ```
+
+- deployment by 3rd party like GitHub Pages, Note that GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins](https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins).
+
+  To use the currently-deployed version of the gem in your project, add the following to your `Gemfile`:
+
+  ```
+  source "https://rubygems.org"
+  
+  gem "github-pages", group: :jekyll_plugins
+  ```
+
+  Be sure to run `bundle update` often.
 
 
 
