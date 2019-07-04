@@ -1,6 +1,6 @@
 ---
 short_name: tatatingting
 name: Ting
-position: Chief Editor, Writer, Programmer
+position: Writer, Developer, Designer
 ---
 Ting is a poor woman based in the east of China.

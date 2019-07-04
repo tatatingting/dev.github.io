@@ -138,7 +138,9 @@ author -."the author's blogs".-> blogs
 
 ```
 
+part III (v2.3)
 
+- prepare for production on GitHub Pages, see https://www.jekyll.com.cn/docs/github-pages/
 
 
 

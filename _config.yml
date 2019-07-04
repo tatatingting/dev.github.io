@@ -1,3 +1,5 @@
+title: tatatingting.github.io
+
 collections:
   authors:
     output: true
@@ -18,3 +20,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
