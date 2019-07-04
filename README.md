@@ -68,10 +68,6 @@ Part I (v2.1)
 
 - blogs 可以被陈列，比如放在 index.html 里，或者新建一个 blog.html，并手动更新 `_data` 里的导航。
 
-- 
-
-
-
 
 
 ```mermaid
@@ -96,7 +92,51 @@ _sass -."@import 'main';".-> css
 
 ```
 
-Part II
+Part II (v2.2)
+
+- `_config.yml` 是一个全局配置文件，比如：通过 defaults 实现缺省值申明，减少重复工作量。
+
+- 可以在 `_config.yml` 里申明新增 collections 的一个实例 authors，随之新建 `_authors`文件夹。
+
+- `_authors` 文件夹是存放作者信息的，作用类似于 `_post` 文件夹，但里面的markdown文件没有命名格式。
+
+- 就像 posts 需要一个 post.html 专属模板，那么 authors 也可以有一个 author.html 专属模板。
+
+- 就像 posts 需要一个 blog.html 来陈列，那么 authors 也可以有一个 staff.html 来陈列，同时更新导航。
+
+- post 和 author 密不可分，所以两个模板 post.html 和 author.html 之间会发生信息的传递。
+
+- 每一个 post.html 都可能有作者，那就匹配一下，然后把选中的作者变成链接，指向具体的 author。
+
+- 每个 author.html 都可能有博客，那就匹配一下，然后把选出的博客变成链接，指向具体的 post。
+
+  
+
+```mermaid
+graph TD
+
+root
+_layouts --- root
+
+_posts --- root
+blogs((2019-07-04-title.md)) --- _posts
+blogs -."post.html".-> _layouts
+blogs ==> blog.html
+blog.html --- root
+
+_config.yml --- root
+_config.yml -.-> _authors(_authors)
+
+_authors --- root
+author((author.md)) --- _authors
+author -."author.html".-> _layouts
+author ==> staff.html
+staff.html --- root
+
+blogs -."the blog's authors".-> author
+author -."the author's blogs".-> blogs
+
+```
 
 
 
