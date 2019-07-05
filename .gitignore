@@ -1,6 +1,9 @@
+# jekyll site
 _site
 .sass-cache
 .jekyll-metadata
+# pycharm
+.idea
 
 <<<<<<< HEAD
 =======
