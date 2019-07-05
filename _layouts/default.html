@@ -1,17 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>{{ page.title }}</title>
+		<title>{{ page.title }}, {{ site.title | escape }} - {{ site.description | escape }}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css">
 		{% feed_meta %}
 		{% seo %}
 		{% if jekyll.environment == "production" %}
-			<script src="/assets/js/analytics-script.js"></script>
+			{% include baidu-analytics.html %}
 		{% endif %}
 	</head>
 	<body>
-		{% include navigation.html %}
-		{{ content }}
+		<header>
+			{% include navigation.html %}
+		</header>
+		<main>
+			{{ content }}
+		</main>
+		<hr>
+		<footer>
+			<div>
+				<p>Proudly hosted by <a href="https://github.com/">GitHub</a>. This site is lovingly maintained by the <a href="https://github.com/tatatingting/tatatingting.github.io/graphs/contributors">core team</a> of volunteers.</p>
+				<p class="copyright">Copyright ©&nbsp;<a href="https://tatatingting.github.io/">tatatingting.github.io</a>. All Rights Reserved.</p>
+			</div>
+		</footer>
 	</body>
 </html>

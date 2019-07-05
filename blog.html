@@ -2,7 +2,18 @@
 title: Blog
 ---
 <h1>Latest Posts</h1>
-
+<style type="text/css">
+	nav {
+		position: fixed;
+		top: 0;
+		background: #BEE7E9;
+	}
+	.copyright {
+		position: fixed;
+		bottom: 0;
+		background: #BEE7E9;
+	}
+</style>
 <ul>
 	{% for post in site.posts %}
 		<li>

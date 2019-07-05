@@ -20,9 +20,12 @@ there're three branches:
 
 
 ```
+# jekyll site
 _site
 .sass-cache
 .jekyll-metadata
+# pycharm
+.idea
 ```
 
 ## 0 2 1
