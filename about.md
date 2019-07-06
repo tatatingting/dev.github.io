@@ -1,35 +1,54 @@
 ---
 layout: page
-title: About
+title: "Hi,"
 permalink: /about/
 ---
 
-### Author
+
+
+I'm Ting. You're welcome here!
+
+...
+
+### ting's blogs? 
+
+This site is lovingly maintained by the [core team][team] of volunteers.
+
+Proudly hosted by [GitHub Pages][github_pages] and designed base on  [Jekyll][Jekyll].
+
+Might hold the awesome link [tatatingting.github.io](https://tatatingting.github.io/)  for years.
+
+### who is ting?
 
 Ting is a poor woman based in the east of China.
 
-Ting posts her blogs on this website - [tatatingting.github.io](https://tatatingting.github.io/) - irregularly.
+She's trying to be a Writer so post blogs irregularly.
 
-Ting writes under the pseudonym of "xiaoting" or "[良宵听雨][jianshu]" sometimes.
+Under the pseudonym of [良宵听雨][jianshu] on game1night（游戏夜读）.
 
-Ting is the chief editor of "game1night（游戏夜读）".
+um... learning to design and develop games.
 
-Thank you for your reading and patience.
+Born in 1990.
+
+Simple, happy, thoughtful.
+
+Life is short.
+
+...
+
+...
+
+Faithfully yours，ting.
+
+6th July, 2019.
 
 
-### Site's Theme
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
 
 
-[jekyll-organization]: https://github.com/jekyll
+
 [jianshu]: https://www.jianshu.com/u/5b14d587175d
-[github]: https://github.com/tatatingting
+[ting]: https://github.com/tatatingting
+[team]: https://github.com/tatatingting/tatatingting.github.io/pulse
+[Jekyll]: https://jekyllrb.com/
+[github_pages]: https://pages.github.com/
+[PMI]: https://www.pmi.org/

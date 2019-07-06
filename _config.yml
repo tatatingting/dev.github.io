@@ -23,10 +23,7 @@ email: tingting2012@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome reading ting's blogs.
   This site is lovingly maintained by tatatingting.
-  Proudly hosted by GitHub and Jekyll.
-  Copyright of tatatingting.github.io All Rights Reserved.
-  Ting is a poor woman based in the east of China.
-  Ting writes under the pseudonym of 良宵听雨 and for 游戏夜读, 'game1night'.
+  Proudly hosted by GitHub Pages and Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh
@@ -40,7 +37,7 @@ linkedin_username: tatatingting
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
