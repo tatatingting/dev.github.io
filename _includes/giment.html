@@ -1,21 +1,15 @@
+<div id="container"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script type="text/javascript">
-const gitment = new Gitment({
-  id: 'Your page ID', // optional
+<script>
+var gitment = new Gitment({
+  id: '页面 ID', // 可选。默认为 location.href
   owner: 'tatatingting',
   repo: 'https://github.com/tatatingting/tatatingting.github.io.git',
   oauth: {
     client_id: '7cd577183318543d2ea5',
     client_secret: 'a24b1cb0b457e3c3352ecbe44f08b2316de958a7',
   },
-  // ...
-  // For more available options, check out the documentation below
 })
-
-gitment.render('comments')
-// or
-// gitment.render(document.getElementById('comments'))
-// or
-// document.body.appendChild(gitment.render())
+gitment.render('container')
 </script>
