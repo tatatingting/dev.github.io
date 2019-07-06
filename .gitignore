@@ -1,10 +1,19 @@
+# ===================================
+# added 
+# ==================================
+
 # jekyll site
 _site
 .sass-cache
 .jekyll-metadata
+
 # pycharm
 .idea
 
+
+# =========================================
+# python default
+# =========================================
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
