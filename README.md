@@ -36,6 +36,10 @@ _site
 
 there're topics about Jekyll:
 
+- minima with gitment and baidu-analystics (v2.6)
+
+- simple with minima (v2.5)
+
 - set up manually and details (v2.3)
 
 - step-by-step local build (v2.0)
