@@ -1,27 +1,29 @@
 ---
 layout: default
 ---
-<article>
-	<header>
-		<h1>{{ page.title | escape }}</h1>
-		<p>
-			<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
-			<span>
-				{% assign author = site.authors | where: 'short_name', page.author | first %}
-				{% if author %}
-				 - <a href="{{ author.url }}">{{ author.name }}</a>
-				{% endif %}
-			</span>
-			<span>- {{ page.content | number_of_words }} Words</span>
-		</p>
-	</header>
-	<p> .</p>
-	<section>
-		{{ content }}
-	</section>
-	<section>
-		<aside>
-			<p><span><a href="{{ page.url | relative_url }}" hidden="">{{ page.url | relative_url }}</a></span></p>
-		</aside>
-	</section>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  {% include giment.html %}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

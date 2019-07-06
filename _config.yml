@@ -13,13 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ting
+title: "tatatingting's blogs"
+email: tingting2012@outlook.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  Proudly hosted by GitHub.
+  Welcome reading tatatingting's blogs.
+  Proudly hosted by GitHub and Jekyll.
   This site is lovingly maintained by volunteers including tatatingting.
   Ting is a poor woman based in the east of China.
   Ting writes under the pseudonym of 良宵听雨 sometimes.
@@ -27,11 +29,21 @@ description: >- # this means to ignore newlines until "baseurl:"
   Copyright of tatatingting.github.io. All Rights Reserved.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  tatatingting
+dribbble_username: tatatingting
+lang: zh
 
 # Build settings
-# markdown: kramdown
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
 # permalink: /blog/:year/:month/:day/:title
-permalink: /post/:year/:title
+permalink: /post/:year-:month-:title.html
 
 collections:
   authors:
@@ -43,22 +55,17 @@ defaults:
       path: ""
       type: "authors"
     values:
-      layout: "author"
+      layout: "page"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "xiaoting"
+      author: "ting"
   - scope:
       path: ""
     values:
-      layout: "default"
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+      layout: "page"
 
 
 # Exclude from processing.
