@@ -36,11 +36,11 @@ _site
 
 there're topics about Jekyll:
 
-- minima with gitment and baidu-analystics (v2.6)
+- part-custome minima with gitment (v2.6)
 
 - simple with minima (v2.5)
 
-- set up manually and details (v2.3)
+- set up manually and baidu-analystics (v2.3)
 
 - step-by-step local build (v2.0)
 - quick-start (v1.1)
@@ -67,8 +67,13 @@ liquid: a new interesting language
 deployment, environments, plugins, themes
 
 - https://jekyllrb.com/docs/step-by-step/10-deployment/
-
 - https://jekyllrb.com/docs/themes/
+
+web analytics, comment management
+
+- https://tongji.baidu.com/
+
+- https://imsun.net/posts/gitment-introduction/
 
 
 

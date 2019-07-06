@@ -13,25 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "tatatingting's blogs"
+title: "ting's blogs"
+author: "Tingting Wang"
 email: tingting2012@outlook.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome reading tatatingting's blogs.
+  Welcome reading ting's blogs.
+  This site is lovingly maintained by tatatingting.
   Proudly hosted by GitHub and Jekyll.
-  This site is lovingly maintained by volunteers including tatatingting.
+  Copyright of tatatingting.github.io All Rights Reserved.
   Ting is a poor woman based in the east of China.
-  Ting writes under the pseudonym of 良宵听雨 sometimes.
-  良宵听雨 always writes blogs for 'game1night', named '游戏夜读' in Chinese.
-  Copyright of tatatingting.github.io. All Rights Reserved.
+  Ting writes under the pseudonym of 良宵听雨 and for 游戏夜读, 'game1night'.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  tatatingting
-dribbble_username: tatatingting
 lang: zh
+
+
+# social settings
+dribbble_username: tatatingting
+github_username:  tatatingting
+linkedin_username: tatatingting
+
 
 # Build settings
 markdown: kramdown
