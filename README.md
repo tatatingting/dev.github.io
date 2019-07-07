@@ -36,6 +36,8 @@ _site
 
 there're topics about Jekyll:
 
+- words counts and mins, can release (v3.0)
+
 - part-custome minima with gitment (v2.6)
 
 - simple with minima (v2.5)

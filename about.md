@@ -28,11 +28,11 @@ Under the pseudonym of [良宵听雨][jianshu] on game1night（游戏夜读）.
 
 um... learning to design and develop games.
 
-Born in 1990.
-
 Simple, happy, thoughtful.
 
 Life is short.
+
+Thank you for your reading and patience.
 
 ...
 
@@ -40,7 +40,7 @@ Life is short.
 
 Faithfully yours，ting.
 
-6th July, 2019.
+7th July, 2019.
 
 
 
