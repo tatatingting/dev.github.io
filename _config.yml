@@ -45,7 +45,7 @@ plugins:
 
 
 # permalink: /blog/:year/:month/:day/:title
-permalink: /post/:year-:month-:title.html
+permalink: /post/:year-:month-:day-:title.html
 
 collections:
   authors:
