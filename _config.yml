@@ -28,6 +28,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh
 
+# theme
+theme: minima
+# google_analytics: 
+# permalink: /blog/:year/:month/:day/:title
+permalink: /post/:year-:month-:day-:title
+
+
 
 # social settings
 dribbble_username: tatatingting
@@ -37,15 +44,11 @@ linkedin_username: tatatingting
 
 # Build settings
 markdown: kramdown
-# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-
-# permalink: /blog/:year/:month/:day/:title
-permalink: /post/:year-:month-:day-:title.html
 
 collections:
   authors:
