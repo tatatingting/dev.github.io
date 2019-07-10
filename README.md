@@ -36,14 +36,11 @@ _site
 
 there're topics about Jekyll:
 
+- del gitment, add gittalk, test ok (v3.1)
 - words counts and mins, can release (v3.0)
-
 - part-custome minima with gitment (v2.6)
-
 - simple with minima (v2.5)
-
 - set up manually and baidu-analystics (v2.3)
-
 - step-by-step local build (v2.0)
 - quick-start (v1.1)
 - very beginning of local Jekyll (v1.0)
