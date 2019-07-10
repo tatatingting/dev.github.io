@@ -34,6 +34,13 @@ theme: minima
 # permalink: /blog/:year/:month/:day/:title
 permalink: /post/:year-:month-:day-:title
 
+# comments
+gitalk:
+  clientID: '7cd577183318543d2ea5'
+  clientSecret: '97d01e0799d1a075ed54d3a96c21884264f72449'
+  repo: 'tatatingting.github.io'
+  owner: 'tatatingting'
+  admin: ['tatatingting']
 
 
 # social settings
