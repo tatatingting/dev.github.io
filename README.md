@@ -32,7 +32,7 @@ _site
 
 ## 0 2 1
 
-### paly with Jekyll, sketch the game
+### play with Jekyll, sketch the game
 
 there're topics about Jekyll:
 
